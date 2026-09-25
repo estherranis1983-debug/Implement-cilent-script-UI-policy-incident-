@@ -1,0 +1,20 @@
+PROJECT: Implement Client Script & UI Policy (Incident)
+
+Platform: ServiceNow
+Table: Incident
+
+Components:
+1. Client Script
+2. UI Policy
+3. UI Policy Action
+
+Client Script:
+- Type: onChange
+- Field: Urgency
+- Automatically updates Priority using Urgency and Impact.
+
+UI Policy:
+- Condition: Active is true
+- Assignment group is made mandatory.
+
+Use the README.md file for complete implementation steps.
